@@ -44,6 +44,15 @@ python -m venv 경로
 source 가상환경/bin/activate
 ```
 
+## 11월 19일
+
+### start app polls
+
+- polls 앱 생성하기
+```
+python manage.py startapp polls
+```
+
 
 
 
