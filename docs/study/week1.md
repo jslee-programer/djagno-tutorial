@@ -53,6 +53,28 @@ source 가상환경/bin/activate
 python manage.py startapp polls
 ```
 
+## 11월 22일
+
+### models.py
+
+- migrate 실행
+```bash
+python manage.py migrate
+python manage.py makemigrations polls
+python manage.py sqlmigrate polls 0001
+```
+
+- shell 을 실행하여 models 조작하기
+
+``` bash
+python manage.py shell -i ipython
+```
+
+- 관리자 생성하기
+
+```bash
+python manage.py createsupreuser
+```
 
 
 
